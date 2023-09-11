@@ -1,0 +1,43 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.section-title {
+    opacity: 0;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    animation: appear 1.6s 1.6s ease-in forwards;
+}
+
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    animation: appearMove 1.6s ease-in;
+}
+.want-contact{
+    margin: 10px 0;
+    line-height: 21px;
+}
+
+@keyframes appearMove {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

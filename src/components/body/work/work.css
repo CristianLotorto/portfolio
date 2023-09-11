@@ -1,0 +1,23 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.work-list {
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0px;
+    animation: appear 1.6s 1.6s ease-in forwards;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
