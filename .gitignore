@@ -1,5 +1,6 @@
 .eslintrc.csj
 .env
+dist
 
 ### Linux ###
 *~
