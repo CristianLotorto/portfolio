@@ -1,5 +1,5 @@
-const rocketTitle = `${import.meta.env.VITE_PUBLIC_URL}/img/RR-title.png`
-const dh = `${import.meta.env.VITE_PUBLIC_URL}/img/dh.png`
+const rocketTitle = "../img/RR-title.png"
+const dh = "../img/dh.png"
 
 export const WorkData = [
     {

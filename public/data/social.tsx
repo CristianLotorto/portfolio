@@ -1,6 +1,6 @@
-const iconGithub = `${import.meta.env.VITE_PUBLIC_ICONS_URL}/github.png`
-const iconLinkedin = `${import.meta.env.VITE_PUBLIC_ICONS_URL}/linkedin.png`
-const iconInstagram = `${import.meta.env.VITE_PUBLIC_ICONS_URL}/instagram.png`
+const iconGithub = "../icons/github.png"
+const iconLinkedin = "../icons/linkedin.png"
+const iconInstagram = "../icons/instagram.png"
 
 export const SocialData=[
 

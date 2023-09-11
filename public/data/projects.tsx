@@ -1,6 +1,6 @@
-const megarocketImg = `${import.meta.env.VITE_PUBLIC_URL}/img/megarocket.png`
-const herosImg = `${import.meta.env.VITE_PUBLIC_URL}/img/heroes-cards.png`
-const pokeSearchImg = `${import.meta.env.VITE_PUBLIC_URL}/img/pokesearch.png`
+const megarocketImg = "../img/megarocket.png"
+const herosImg = "../img/heroes-cards.png"
+const pokeSearchImg = "../img/pokesearch.png"
 
 export const ProjectData=[
     {

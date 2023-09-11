@@ -1,6 +1,6 @@
 import "./about.css";
 
-const codingImg = `${import.meta.env.VITE_PUBLIC_URL}/img/coding.png`
+const codingImg = "../../../../public/img/coding.png"
 
 function About() {
   return (
