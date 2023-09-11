@@ -1,6 +1,6 @@
 import "./about.css";
 
-const codingImg = "/public/img/coding.png"
+const codingImg = "/img/coding.png"
 
 function About() {
   return (
