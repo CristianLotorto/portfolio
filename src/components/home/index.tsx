@@ -19,7 +19,9 @@ function Home() {
     document.documentElement.dataset.theme = isDark ? "dark" : "light";
     try {
       window.localStorage.setItem("portfolio-theme", isDark ? "dark" : "light");
-    } catch {}
+    } catch {
+      // Keep the theme usable when browser storage is unavailable.
+    }
   }, [isDark]);
 
   return ( <div className="home">
