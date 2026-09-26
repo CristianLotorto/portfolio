@@ -12,7 +12,7 @@
 .web-option a{
     font-size: 18px;
     text-decoration: none;
-    color: #4848b5;
+    color: var(--accent);
     display: flex;
     align-items: center;
 }
@@ -24,4 +24,8 @@
 }
 .web-option:last-child {
     margin-right: 0px;
+}
+
+.web-option a:hover {
+    color: var(--accent-hover);
 }

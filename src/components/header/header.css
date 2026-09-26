@@ -8,10 +8,11 @@
     animation: appear 1.6s ease-in;
 }
 .menu{
-    background-color: white;
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
 }
 
 .menu-icon{
@@ -28,8 +29,44 @@
 .logo{
     display: flex;
     font-size: 36px;
-    color: blue;
+    color: var(--accent);
     font-weight: 800;
+}
+
+.theme-toggle,
+.menu-trigger {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--control-border);
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--accent);
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.theme-toggle {
+    font-size: 18px;
+}
+
+.theme-toggle:hover,
+.menu-trigger:hover {
+    color: var(--accent-hover);
+    transform: translateY(-2px);
+}
+
+.theme-toggle:focus-visible,
+.menu-trigger:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.menu-trigger {
+    padding: 0;
 }
 
 @keyframes appear {
@@ -44,6 +81,7 @@
 @media only screen and (max-width: 720px) {
     .mobile-menu{
         display: flex;
+        align-items: center;
     }
     .web-menu{
         display: none;

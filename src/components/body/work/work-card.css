@@ -18,7 +18,7 @@
 }
 
 .work-dates {
-    color: black;
+    color: var(--text-secondary);
 }
 
 .work-desc {

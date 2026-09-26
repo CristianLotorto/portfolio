@@ -16,13 +16,13 @@
     animation: appearMove 1.6s ease-in;
 }
 .info-name {
-    color: #4848b5;
+    color: var(--accent);
     font-size: 60px;
 }
 .full-stack{
     line-height: 120px;
     font-size: 36px;
-    color: #3c3c3c;
+    color: var(--text-secondary);
 }
 
 @keyframes appearMove {
