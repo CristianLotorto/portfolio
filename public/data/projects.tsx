@@ -1,8 +1,18 @@
 const megarocketImg = "../img/megarocket.png"
 const herosImg = "../img/heroes-cards.png"
 const pokeSearchImg = "../img/pokesearch.png"
+const vcutImg = "../img/vcut.svg"
 
 export const ProjectData=[
+    {
+        id:5,
+        title:"Vcut",
+        about: "Vcut es un editor de video online que permite cargar videos, marcar y organizar cortes, previsualizar el montaje, ajustar el volumen y exportar el resultado en MP4. Los archivos se procesan localmente en el navegador.",
+        tags:["Editor de video", "Web App", "Procesamiento local", "Exportación MP4"],
+        demo:"https://vcut-silk.vercel.app/",
+        github:"",
+        image:vcutImg,
+    },
     {
         id:4,
         title:"Markets Way",
