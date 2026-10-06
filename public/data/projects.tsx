@@ -4,6 +4,15 @@ const pokeSearchImg = "../img/pokesearch.png"
 
 export const ProjectData=[
     {
+        id:4,
+        title:"Markets Way",
+        about: "Markets Way es un juego de gestión de una pequeña tienda con estética pixel art. Atendé a tus clientes, reponé productos y disfrutá del ritmo tranquilo de llevar un comercio, acompañado por música relajante. El juego continúa en desarrollo activo.",
+        tags:["Game Development", "Game Design", "Pixel Art", "Godot Engine" ],
+        demo:"https://mnyak.itch.io/markets-way",
+        github:"",
+        image:"https://img.itch.zone/aW1nLzI0NTI4NDE4LnBuZw==/original/rDtJ%2FH.png",
+    },
+    {
         id:1,
         title:"Mega Rocket",
         about: " Mega Rocket es un CRM para gestion de gimnasios desarrollado en React.Js en frontend y el backend desarrollado con ExpressJs.Consta de 4 roles para dividir la gestion del gimnasio de forma optima, de manera que cada uno de los participantes del dia a dia de un gimnasio pueden tener su cuenta en la plataforma y getionar su perfil de una forma comoda.",
